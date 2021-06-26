@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Календарь Лиг</title>
+    <link rel="stylesheet" href="/main.html">
+    <link rel="stylesheet" href="/css/t_c.css">
+</head>
+<style>
+    ul {
+     width: 180px; /* Ширина меню */
+     list-style: none; /* Для списка убираем маркеры */
+     margin: 0; /* Нет отступов вокруг */
+     padding: 0; /* Убираем поля вокруг текста */
+     font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
+     font-size: 10pt; /* Размер названий в пункте меню */
+    }
+    li ul {
+     position: absolute; /* Подменю позиционируются абсолютно */
+     display: none; /* Скрываем подменю */
+     margin-left: 165px; /* Сдвигаем подменю вправо */
+     margin-top: -2em; /* Сдвигаем подменю вверх */
+    }
+    li a {
+     display: block; /* Ссылка как блочный элемент */
+     padding: 5px; /* Поля вокруг надписи */
+     text-decoration: none; /* Подчеркивание у ссылок убираем */
+     color: #666; /* Цвет текста */
+     border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+     background-color: #f0f0f0; /* Цвет фона */
+     border-bottom: none; /* Границу снизу не проводим */
+    }
+    li a:hover {
+     color: #ffe; /* Цвет текста активного пункта */
+     background-color: #5488af; /* Цвет фона активного пункта */
+    }
+    li:hover ul { 
+     display: block; /* При выделении пункта курсором мыши отображается подменю */
+    }
+    .brd {
+     border-bottom: 1px solid #ccc; /* Линия снизу */
+    }
+
+    body {
+         margin:0px;
+          
+        }
+   </style>
+
+
+<body>
+    
+  
+  <header class="Name">
+      
+      <h1>КАЛЕНДАРЬ КОМАНД</h1>
+      <div class="home">
+        <a href="/main.html">
+            SOCCER_STAT
+      </a>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+ <div class=" menu_block">
+  <ul class="menu">
+    <li><a href="">Год</a>
+     <ul> 
+      <li><a href="">2001/03</a></li>
+      <li><a href="">2003/04</a></li>
+      <li><a href="">2004/05</a></li>
+      <li><a href="">2005/06</a></li>
+      <li><a href="">2007/08</a></li>
+      <li><a href="">2009/10</a></li>
+      <li><a href="">2010/11</a></li>
+      <li><a href="">2011/12</a></li>
+      <li><a href="">2012/13</a></li>
+      <li><a href="">2013/14</a></li>
+      <li><a href="">2014/15</a></li> 
+      <li><a href="">2015/16</a></li> 
+      <li><a href="">2016/17</a></li> 
+      <li><a href="">2017/18</a></li> 
+      <li><a href="">2018/19</a></li> 
+      <li><a href="">2019/20</a></li> 
+      <li><a href="" class="brd">2020/21</a></li> 
+     </ul> 
+    </div>
+
+    <table border="1" width="100%" cellpadding="5" >
+      <tr><th> № </th> <th> Страна </th> <th> Рейтинг </th>  </tr>
+      <tr><th> 1 </th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 2 </th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 3 </th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 4 </th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 5 </th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 6 </th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 7 </th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 8 </th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 9 </th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 10</th> <th>        </th> <th>         </th>  </tr>
+      <tr><th> 11</th> <th>        </th> <th>         </th>  </tr>
+
+
+
+    </table>
+</body>
+</html>

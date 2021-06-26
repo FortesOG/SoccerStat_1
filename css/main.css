@@ -1,0 +1,183 @@
+.logo
+{
+    position: relative;
+width: 1903px;
+height: 703px;
+
+}
+
+.logotxt
+{
+
+position: absolute;
+width: 497px;
+height: 137px;
+align-items: center;
+padding-inline: 610px;
+padding-top: 100px;
+
+font-family: Ma Shan Zheng;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 144px;
+
+color: #FAC900;
+
+}
+
+
+.line_num1
+{
+    position: absolute;
+width: 1396px;
+height: 0px;
+left: 254px;
+top: 395.5px;
+
+border: 2px solid #FFFFFF;
+}
+
+.line_num2
+{
+    position: absolute;
+width: 698px;
+height: 0px;
+left: 603px;
+top: 474px;
+
+border: 2px solid #FFFFFF;
+}
+
+
+.info
+{
+    position: flex;
+width: 1903px;
+height: 702px;
+
+background: #f1f0f0;
+
+}
+
+.body
+{
+    position: flex;
+width: 1920px;
+height: 2331px;
+
+
+background: #C4C4C4;
+}
+
+.top_info
+{
+padding-top: 40px;
+    padding-inline: 710px;
+    width: 749px;
+    height: 136px;
+    
+    font-family: ABeeZee;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 76px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #464545;
+    
+    mix-blend-mode: normal;
+}
+
+.midl_info{
+    
+padding-inline: 280px;
+width: 1409px;
+height: 280px;
+
+font-family: ABeeZee;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 85px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #555353;
+}
+
+.bot_list{
+    position:flex;
+    width: 1903px;
+    height: 860px;
+    
+    background: #FCFCFC;
+}
+
+.block
+{
+    display:inline-block;    
+    padding-inline: 80px;
+    transition: 0.6s;
+    width: 300px;
+    height: 382px;    
+}
+
+.block_1
+{    
+    box-shadow: -7px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+}
+
+
+
+.bot_info{
+    
+width: 749px;
+height: 136px;
+
+padding-inline-start: 577px;
+padding-top: 60px;
+font-family: ABeeZee;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 76px;
+
+align-items: center;
+text-align: center;
+
+color: #5E5E5E;
+
+mix-blend-mode: normal;
+text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line_3
+{
+    position: absolute;
+    width: 1247px;
+    height: 0px;
+    
+    left:316px;
+    border: 2px solid #000000;
+
+}
+
+
+.bot_bord
+{
+    position: absolute;
+width: 1903px;
+height: 66px;
+    background: #b8b8b8;
+}
+
+.block:hover
+{
+    transform: scale(1.2);
+}

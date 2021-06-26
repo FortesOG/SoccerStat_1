@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Календарь Лиг</title>
+    <link rel="stylesheet" href="/main.html">
+    <link rel="stylesheet" href="/css/l_c.css">
+</head>
+<style>
+    ul {
+     width: 180px; /* Ширина меню */
+     list-style: none; /* Для списка убираем маркеры */
+     margin: 0; /* Нет отступов вокруг */
+     padding: 0; /* Убираем поля вокруг текста */
+     font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
+     font-size: 10pt; /* Размер названий в пункте меню */
+    }
+    li ul {
+     position: absolute; /* Подменю позиционируются абсолютно */
+     display: none; /* Скрываем подменю */
+     margin-left: 165px; /* Сдвигаем подменю вправо */
+     margin-top: -2em; /* Сдвигаем подменю вверх */
+    }
+    li a {
+     display: block; /* Ссылка как блочный элемент */
+     padding: 5px; /* Поля вокруг надписи */
+     text-decoration: none; /* Подчеркивание у ссылок убираем */
+     color: #666; /* Цвет текста */
+     border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+     background-color: #f0f0f0; /* Цвет фона */
+     border-bottom: none; /* Границу снизу не проводим */
+    }
+    li a:hover {
+     color: #ffe; /* Цвет текста активного пункта */
+     background-color: #5488af; /* Цвет фона активного пункта */
+    }
+    li:hover ul { 
+     display: block; /* При выделении пункта курсором мыши отображается подменю */
+    }
+    .brd {
+     border-bottom: 1px solid #ccc; /* Линия снизу */
+    }
+
+    body {
+         margin:0px;
+          
+        }
+   </style>
+
+
+<body>
+    
+  
+  <header class="Name">
+      
+      <h1>СПИСОК КОМАНД</h1>
+      <div class="home">
+        <a href="/main.html">
+            SOCCER_STAT
+      </a>
+    </div>
+  </header>
+<div class="header">
+
+
+
+
+</div>
+
+
+<div class=" menu_block">
+  <ul class="menu">
+    <li><a href="">Год</a>
+     <ul> 
+      <li><a href="/List/03.html">2001/03</a></li>
+      <li><a href="/List/04.html">2003/04</a></li>
+      <li><a href="/List/05.html">2004/05</a></li>
+      <li><a href="/List/06.html">2005/06</a></li>
+      <li><a href="/List/08.html">2007/08</a></li>
+      <li><a href="/List/09.html">2009/10</a></li>
+      <li><a href="/List/10.html">2010/11</a></li>
+      <li><a href="/List/11.html">2011/12</a></li>
+      <li><a href="/List/12.html">2012/13</a></li>
+      <li><a href="/List/13.html">2013/14</a></li>
+      <li><a href="/List/14.html">2014/15</a></li> 
+      <li><a href="/List/15.html">2015/16</a></li> 
+      <li><a href="/List/16.html">2016/17</a></li> 
+      <li><a href="/List/17.html">2017/18</a></li> 
+      <li><a href="/List/18.html">2018/19</a></li> 
+      <li><a href="/List/19.html">2019/20</a></li> 
+      <li><a href="/List/20.html" class="brd">2020/21</a></li> 
+     </ul> 
+    </div>
+
+    
+    <table border="1" width="100%" cellpadding="5" >
+        <tr><th> №  </th> <th> Страна        </th> <th> Рейтинг </th>  </tr>
+        <tr><th> 1  </th> <th>   Португалия    </th> <th>         </th>  </tr>
+        <tr><th> 2  </th> <th>    Англия        </th> <th>         </th>  </tr>
+        <tr><th> 3  </th> <th>      Испания         </th> <th>         </th>  </tr>
+        <tr><th> 4  </th> <th>    Германия           </th> <th>         </th>  </tr>
+        <tr><th> 5  </th> <th>     Италия          </th> <th>         </th>  </tr>
+        <tr><th> 6  </th> <th>      Нидерланды         </th> <th>         </th>  </tr>
+        <tr><th> 7  </th> <th>      Франция         </th> <th>         </th>  </tr>
+        <tr><th> 8  </th> <th>      Украина         </th> <th>         </th>  </tr>
+        <tr><th> 9  </th> <th>      Греция         </th> <th>         </th>  </tr>
+        <tr><th> 10 </th> <th>      Дания         </th> <th>         </th>  </tr>
+        <tr><th> 11 </th> <th>     Швейцария          </th> <th>         </th>  </tr>
+        <tr><th> 12 </th> <th>     Беларусь          </th> <th>         </th>  </tr>
+        <tr><th> 13 </th> <th>     Болгария          </th> <th>         </th>  </tr>
+        <tr><th> 14 </th> <th>     Израиль          </th> <th>         </th>  </tr>
+        <tr><th> 15 </th> <th>     Бельгия          </th> <th>         </th>  </tr>
+        <tr><th> 16 </th> <th>     Турция          </th> <th>         </th>  </tr>
+        <tr><th> 17 </th> <th>      Польша         </th> <th>         </th>  </tr>
+        <tr><th> 18 </th> <th>      Австрия         </th> <th>         </th>  </tr>
+        <tr><th> 19 </th> <th>      Хорватия         </th> <th>         </th>  </tr>
+        <tr><th> 20 </th> <th>      Шотландия         </th> <th>         </th>  </tr>                
+      
+     </table>
+</body>
+</html>

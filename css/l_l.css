@@ -1,0 +1,27 @@
+header.Name {
+    background-color: rgba(161, 57, 25, 0.411);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: rgb(253, 253, 253);
+    text-shadow: rgb(3, 243, 3) 0 0 .2em;
+    padding-inline-start: 700px;
+}
+header.Name > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 2%;
+}
+
+.home
+{
+    padding-inline-start: 600px;
+    
+}
+
+table
+{
+    background-color: rgb(231, 216, 216);
+
+}

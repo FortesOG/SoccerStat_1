@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Календарь Лиг</title>
+    <link rel="stylesheet" href="/main.html">
+    <link rel="stylesheet" href="/css/l_l.css">
+</head>
+<style>
+    ul {
+     width: 180px; /* Ширина меню */
+     list-style: none; /* Для списка убираем маркеры */
+     margin: 0; /* Нет отступов вокруг */
+     padding: 0; /* Убираем поля вокруг текста */
+     font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
+     font-size: 10pt; /* Размер названий в пункте меню */
+    }
+    li ul {
+     position: absolute; /* Подменю позиционируются абсолютно */
+     display: none; /* Скрываем подменю */
+     margin-left: 165px; /* Сдвигаем подменю вправо */
+     margin-top: -2em; /* Сдвигаем подменю вверх */
+    }
+    li a {
+     display: block; /* Ссылка как блочный элемент */
+     padding: 5px; /* Поля вокруг надписи */
+     text-decoration: none; /* Подчеркивание у ссылок убираем */
+     color: #666; /* Цвет текста */
+     border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+     background-color: #f0f0f0; /* Цвет фона */
+     border-bottom: none; /* Границу снизу не проводим */
+    }
+    li a:hover {
+     color: #ffe; /* Цвет текста активного пункта */
+     background-color: #5488af; /* Цвет фона активного пункта */
+    }
+    li:hover ul { 
+     display: block; /* При выделении пункта курсором мыши отображается подменю */
+    }
+    .brd {
+     border-bottom: 1px solid #ccc; /* Линия снизу */
+    }
+
+    body {
+         margin:0px;
+         background: url(/img/fon.jpg);
+        }
+   </style>
+
+
+
+
+<body>
+    
+  
+  <header class="Name">
+      
+      <h1>СПИСОК ЛИГ</h1>
+      <div class="home">
+        <a href="/main.html">
+            SOCCER_STAT
+      </a>
+    </div>
+  </header>
+<div class="header">
+
+
+
+
+</div>
+
+
+<div class=" menu_block">
+  <ul class="menu">
+    <li><a href="">Лига \ Год</a>
+     <ul> 
+      <li><a href="/List/03.html"> Лига Европы  2001/03</a></li>
+      <li><a href="/List/04.html"> Лига Европы  2003/04</a></li>
+      <li><a href="/List/05.html"> Лига Европы  2004/05</a></li>
+      <li><a href="/List/06.html"> Лига Европы  2005/06</a></li>
+      <li><a href="/List/08.html"> Лига Европы  2007/08</a></li>
+      <li><a href="/List/09.html"> Лига Европы  2009/10</a></li>
+      <li><a href="/List/10.html"> Лига Европы  2010/11</a></li>
+      <li><a href="/List/11.html"> Лига Европы  2011/12</a></li>
+      <li><a href="/List/12.html"> Лига Европы  2012/13</a></li>
+      <li><a href="/List/13.html"> Лига Европы  2013/14</a></li>
+      <li><a href="/List/14.html"> Лига Европы  2014/15</a></li> 
+      <li><a href="/List/15.html"> Лига Европы  2015/16</a></li> 
+      <li><a href="/List/16.html"> Лига Европы  2016/17</a></li> 
+      <li><a href="/List/17.html"> Лига Европы  2017/18</a></li> 
+      <li><a href="/List/18.html"> Лига Европы  2018/19</a></li> 
+      <li><a href="/List/19.html"> Лига Европы  2019/20</a></li> 
+      <li><a href="/List/20.html" class="brd"> Лига Европы 2020/21</a></li> 
+     </ul> 
+    </div>
+
+</body>
+</html>
